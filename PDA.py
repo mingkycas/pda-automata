@@ -97,15 +97,15 @@ class PDAVisualizer:
         # Self-loop on q0 for a and b
         self.canvas.create_arc(120, 50, 180, 110, start=-50, extent=290, style=tk.ARC)
         self.canvas.create_line(175, 95, 160, 110, arrow=tk.LAST)
-        self.canvas.create_text(150, 40, text="(a, Z/aZ)", font=("Arial", 10))
-        self.canvas.create_text(150, 25, text="(a, a/aa)", font=("Arial", 10))
-        self.canvas.create_text(150, 15, text="(a, b/ab)", font=("Arial", 10))
+        self.canvas.create_text(150, 40, text="(a, Z/Z)", font=("Arial", 10))
+        self.canvas.create_text(150, 25, text="(a, a/a)", font=("Arial", 10))
+        self.canvas.create_text(150, 15, text="(a, b/b)", font=("Arial", 10))
         
         self.canvas.create_arc(120, 245, 180, 195, start=130, extent=290, style=tk.ARC)        
         self.canvas.create_line(175, 205, 160, 195, arrow=tk.LAST)
-        self.canvas.create_text(150, 255, text="(b, Z/bZ)", font=("Arial", 10))
-        self.canvas.create_text(150, 270, text="(b, b/bb)", font=("Arial", 10))
-        self.canvas.create_text(150, 285, text="(b, a/ba)", font=("Arial", 10))
+        self.canvas.create_text(150, 255, text="(b, Z/Z)", font=("Arial", 10))
+        self.canvas.create_text(150, 270, text="(b, b/b)", font=("Arial", 10))
+        self.canvas.create_text(150, 285, text="(b, a/a)", font=("Arial", 10))
 
         # Self-loop on q1 for a and b
         self.canvas.create_arc(270, 50, 330, 110, start=-50, extent=290, style=tk.ARC)
